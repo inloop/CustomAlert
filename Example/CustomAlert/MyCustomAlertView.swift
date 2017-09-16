@@ -12,6 +12,6 @@ import CustomAlert
 
 class MyCustomAlertView: CustomAlertView {
     @IBAction func tapCloseButton(_ sender: Any) {
-        delegate?.dismissAlert()
+        delegate?.dismissAlert(animated: true)
     }
 }
